@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+    <app title="OpenGL Tutorial" file="OpenGLTutorial" package="de.gameduell.outlinetest" version="0.0.1" company="gameduell.de"  />
+	<main name="Main" />
+
+	<source path="source" />
+
+	<duelllib name="duellkit" version="5.0.0+" />
+
+    <haxelib name="format" version="3.1.2" />
+
+    <library-config>
+
+        <filesystem>
+            <static-assets path="assets" />
+        </filesystem>
+
+    </library-config>
+
+</project>
